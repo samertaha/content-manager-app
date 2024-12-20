@@ -1,5 +1,11 @@
+import Layout from "@/components/Layout";
+
 function About() {
-  return <h1>about</h1>;
+  return (
+    <Layout>
+      <h1>I am about page</h1>
+    </Layout>
+  );
 }
 
 export default About;
