@@ -4,12 +4,15 @@ import Newsletter from "@/components/Newsletter";
 import ResourceList from "@/components/ResourceList";
 import Footer from "@/components/Footer";
 
+import { resources } from "@/api/data";
+
 function Home() {
   return (
     <Layout>
       <ResourceHighlight />
       <Newsletter />
       <ResourceList />
+      {JSON.stringify(resources)}
       <Footer />
     </Layout>
   );
