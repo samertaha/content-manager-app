@@ -1,3 +1,11 @@
 {
-  "terminal.integrated.cwd": "${workspaceFolder}"
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#392A2B",
+    "titleBar.activeBackground": "#503A3C",
+    "titleBar.activeForeground": "#FBFAFA"
+  },
+  "projectManager.git.baseFolders": [
+    "c:\\C:\\Users\\SAMER\\Desktop\\MERN projects"
+  ]
 }
